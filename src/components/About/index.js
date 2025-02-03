@@ -1,7 +1,4 @@
-import './index.scss'
-import { useState, useEffect } from 'react'
-import AnimatedLetters from '../AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { useEffect, useState } from 'react'
 import {
   faCss3,
   faHtml5,
@@ -11,6 +8,9 @@ import {
   faJava,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
+import AnimatedLetters from '../AnimatedLetters'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './index.scss'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -23,7 +23,7 @@ const About = () => {
 
   return (
     <>
-      <div className="conatiner about-page">
+      <div className="container about-page">
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -33,12 +33,12 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in
+            I'm a very ambitious front-end developer looking for a role in an
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
-          <p>
-            I'm quietly confident, naturally curious, and perpetually working on
+          <p align="LEFT">
+            I'm quiet confident, naturally curious, and perpetually working on
             improving my chops one design problem at a time.
           </p>
           <p>

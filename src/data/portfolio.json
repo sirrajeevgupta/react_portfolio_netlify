@@ -1,0 +1,22 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/thumbnails/userWebsite.png",
+      "title": "Login & Registeration Form",
+      "description": "MERN Stack, React/Redux, CRUD",
+      "url": "https://userform-yto1.onrender.com/"
+    },
+    {
+      "cover": "/portfolio/thumbnails/portfolioWebsite.png",
+      "title": "Portfolio",
+      "description": "React, SASS, Animations, EmailJS/Leaflet.js",
+      "url": "https://rajeevsreactportfolio.netlify.app/"
+    },
+    {
+      "cover": "/portfolio/thumbnails/reduxPostsBlog.png",
+      "title": "React Redux Blog",
+      "description": "React, Redux, Node.js, Axios/CRUD",
+      "url": "https://reduxblogproject.netlify.app/"
+    }
+  ]
+}

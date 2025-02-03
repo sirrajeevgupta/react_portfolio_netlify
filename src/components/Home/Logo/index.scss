@@ -16,7 +16,7 @@
     width: 400px;
     right: -15%;
     bottom: auto;
-    left: 10;
+    left: 45px;
     margin: auto;
     width: 100%;
     opacity: 1;
@@ -44,6 +44,24 @@
     }
     to {
       transform: rotate(360deg);
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .logo-container {
+    .solid-logo-F {
+      position: absolute;
+      width: 250px;
+      left: -75px;
+      top: 10px;
+    }
+
+    .solid-logo-R {
+      width: 185px !important;
+      top: 148px;
+      right: 10px !important;
+      left: -15px;
     }
   }
 }
